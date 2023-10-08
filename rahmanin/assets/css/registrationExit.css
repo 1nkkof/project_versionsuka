@@ -1,0 +1,133 @@
+
+    /* display: flex;
+    flex-direction: column; */
+    .container-content{
+      max-width: 1320px;
+      /* margin: 0 auto; */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  
+      padding: 0 450px;
+  
+  }
+  
+  
+  /* .nav{
+    display: flex;
+    justify-content: space-between;
+  } */
+  .menu{
+    display: flex;
+    gap: 0 40px;
+    padding-top: 40px;
+  }
+  .menu-link{
+    font-weight: 400;
+    font-size: 30px;
+  }
+  /* .enter, .registration{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000;
+  } */
+  
+  .enter_index, .registration{
+    border-bottom: 3px solid #A7DFFF ;
+    padding: 0 10px;
+    border-radius: 5%;
+  }
+  /* .main{
+    margin: 70px 0;
+  } */
+  .input-name, .input-password,.input-email,.input-password-again{
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #FFF; 
+    padding: 25px 80px 25px 45px;
+    font-size:20px ; 
+  }
+  ::placeholder{
+    color: #605F5F;
+  font-family: 'Anek Latin', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400; 
+  }
+  
+  .main-form{
+    display: flex;
+    flex-direction: column;
+  }
+  .main-form__text{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 50px;
+  }
+  .main-form__container{
+    max-width: 300px;
+  }
+  input{
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+  .fogrein_password{
+    color: #585858;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: underline;
+    /* margin: 30px 10px; */
+    /* padding: 0 101px; */
+  
+    /* padding: 14px 27px 0 0; */
+  
+  }
+  
+  .big-container__button{
+    background: #000; 
+    color: white;
+    /* padding: 18px 80px 18px 80px; */
+    padding: 18px 82px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+  
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .img-registration{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-size: cover;
+  
+    /* height: 100px; */
+    /* width: 500px; */
+  }
+  
+  
+  /* вход */
+  
+  .enter-button{
+    padding: 18px 155px;
+  }
+  
+  .we-miss{
+    font-size: 40px;
+    font-weight: 500;
+  
+    margin-bottom: 20px;
+  
+  }
+  .log-in{
+    font-size: 22px;
+    font-weight: 400;
+  
+  }
+  .text-form{
+    margin-top:100px ;
+    margin-bottom: 30px;
+  }
